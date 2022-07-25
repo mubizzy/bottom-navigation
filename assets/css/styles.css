@@ -105,6 +105,16 @@ img {
   justify-content: space-between;
   align-items: center;
 }
+
+.nav__img {
+  width: 32px;
+  border-radius: 50%;
+}
+
+.nav__logo {
+  color: var(--title-color);
+  font-weight: 600;
+}
 /*Active link*/
 
 /* Minimalist design, active link */

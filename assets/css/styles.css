@@ -89,7 +89,11 @@ img {
   margin-right: 1rem;
 }
 /*=============== HEADER ===============*/
-
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 /*=============== NAV ===============*/
 
 /*Active link*/

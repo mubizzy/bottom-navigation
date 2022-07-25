@@ -144,6 +144,10 @@ img {
     color: var(--title-color);
     font-weight: 600;
   }
+
+  .nav__icon {
+    font-size: 2rem;
+  }
 }
 /*Active link*/
 

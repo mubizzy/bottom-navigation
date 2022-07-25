@@ -14,14 +14,14 @@
   --title-color: hsl(var(--hue), 12%, 15%);
   --text-color: hsl(var(--hue), 8%, 35%);
   --body-color: hsl(var(--hue), 8%, 35%);
-  --container-color: ;
+  --container-color: #fff;
 
   /*========== Font and typography ==========*/
   --body-font: "Open Sans", sans-serif;
 
-  --h1-font-size: ;
-  --normal-font-size: ;
-  --tiny-font-size: ;
+  --h1-font-size: 1.5rem;
+  --normal-font-size: 0.938rem;
+  --tiny-font-size: 0.625rem;
 
   /*========== z index ==========*/
   --z-tooltip: ;

@@ -54,6 +54,19 @@ body {
   background-color: var(--body-color);
   color: var(--text-color);
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 
 /*=============== LAYOUT ===============*/

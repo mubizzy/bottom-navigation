@@ -235,4 +235,9 @@ img {
     background-color: var(--first-color);
     border-radius: 50%;
   }
+
+  /* Minimalist design */
+  .active-link::before {
+    bottom: -0.75rem;
+  }
 }

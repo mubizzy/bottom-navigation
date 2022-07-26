@@ -160,7 +160,7 @@ img {
 /*Active link*/
 .active-link {
   position: relative;
-  color: var(--first-color);
+  color: red;
   transition: 0.3s;
 }
 
@@ -172,7 +172,7 @@ img {
 /* Change background header */
 
 /*=============== MEDIA QUERIES ===============*/
-/* For small devices */
+
 /* Remove if you choose, the minimalist design */
 .active-link::before {
   content: "";
@@ -183,6 +183,7 @@ img {
   background-color: var(--first-color);
   border-radius: 50%;
 }
+/* For small devices */
 @media screen and (max-width: 320px) {
   .nav__name {
     display: none;
@@ -195,7 +196,6 @@ img {
     column-gap: 3rem;
   }
 }
-/* For large devices */
 @media screen and (min-width: 767px) {
   body {
     margin: 0;
@@ -226,7 +226,7 @@ img {
     color: var(--first-color);
   }
 
-  .active-link::before {
+  /* .active-link::before {
     content: "";
     position: absolute;
     bottom: -0.75rem;
@@ -234,10 +234,34 @@ img {
     height: 4px;
     background-color: var(--first-color);
     border-radius: 50%;
-  }
+  } */
 
   /* Minimalist design */
   .active-link::before {
     bottom: -0.75rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav__list {
+    height: var(--header-height);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__icon {
+    font-size: large;
+  }
+
+  .nav__img {
+    display: block;
   }
 }

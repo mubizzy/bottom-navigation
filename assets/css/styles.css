@@ -250,11 +250,15 @@ img {
   }
 
   .nav__list {
-    height: var(--header-height);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    color: inherit;
+    background-color: var(--body-color);
+  }
+
+  .nav__link,
+  .nav__icon {
+    color: var(--title-color);
   }
 }

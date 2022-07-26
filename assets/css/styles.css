@@ -154,7 +154,7 @@ img {
   }
 
   .nav__icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 /*Active link*/
@@ -163,6 +163,10 @@ img {
   color: var(--first-color);
   transition: 0.3s;
 }
+
+.scroll-header {
+  box-shadow: 0 1px 12px hsla(var(--hue), var(--sat), 15%, 0.15);
+}
 /* Minimalist design, active link */
 
 /* Change background header */
@@ -170,7 +174,11 @@ img {
 /*=============== MEDIA QUERIES ===============*/
 /* For small devices */
 /* Remove if you choose, the minimalist design */
-
+@media screen and (max-width: 320px) {
+  .nav__name {
+    display: none;
+  }
+}
 /* For medium devices */
 
 /* For large devices */

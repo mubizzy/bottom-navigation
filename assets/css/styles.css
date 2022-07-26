@@ -212,4 +212,13 @@ img {
   .nav__img {
     display: none;
   }
+
+  .nav__icon {
+    display: none;
+  }
+
+  .nav__name {
+    font-size: var(--normal-font-size);
+    display: block;
+  }
 }
